@@ -1,0 +1,11 @@
+To enable start :
+sudo systemctl enable docker --now
+To run docker image :
+docker run -i -t imageid /bin/bash
+To expose port 9000 outside container :
+docker run -d -p 9000:80 imgId
+To execute already running container:
+docker exec -it containerId /bin/bash
+  
+
+
