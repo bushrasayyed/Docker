@@ -1,4 +1,4 @@
-To enable start :
+To enable start ( optional ):
 sudo systemctl enable docker --now
 To run docker image :
 docker run -i -t imageid /bin/bash
